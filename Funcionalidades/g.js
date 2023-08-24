@@ -25,6 +25,7 @@ btnEnunciado7.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var nombreEmpleado = prompt("Por favor introduzca un primer numero");
 
     var autosVendidos = parseFloat(

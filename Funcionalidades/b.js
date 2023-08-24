@@ -18,7 +18,7 @@ btnEnunciado2.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
-    // Ejecuta el script de enunciado
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var numeroRecibido = parseFloat(prompt("Por favor ingrese un numero"));
     console.log(typeof numeroRecibido);
     if (isNaN(numeroRecibido)) {

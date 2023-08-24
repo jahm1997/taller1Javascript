@@ -20,6 +20,7 @@ btnEnunciado13.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     const promedioIntegral = parseFloat(
       prompt("Ingrese su promedio integral:")
     );

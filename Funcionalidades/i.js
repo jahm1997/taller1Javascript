@@ -19,6 +19,7 @@ btnEnunciado9.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     const nota = parseFloat(prompt("Ingrese la nota del estudiante:"));
 
     if (isNaN(nota)) {

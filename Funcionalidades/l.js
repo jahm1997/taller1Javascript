@@ -18,6 +18,7 @@ btnEnunciado12.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var primerNumero = parseFloat(prompt("Ingrese el primer número:"));
     var segundoNumero = parseFloat(prompt("Ingrese el segundo número:"));
     var tercerNumero = parseFloat(prompt("Ingrese el tercer número:"));

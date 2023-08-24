@@ -17,7 +17,7 @@ btnEnunciado1.addEventListener("click", () => {
   const btnVerEjercicio = document.getElementById("ejecutar");
 
   btnVerEjercicio.addEventListener("click", () => {
-    // Ejecuta el script de enunciado
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var alerta, cupo;
 
     const valorPasaje = 1700;

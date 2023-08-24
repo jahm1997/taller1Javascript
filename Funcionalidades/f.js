@@ -20,6 +20,7 @@ btnEnunciado6.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var numeroRecibido = parseFloat(
       prompt("Por favor introduzca la nota del primer parcial")
     );

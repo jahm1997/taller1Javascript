@@ -21,6 +21,7 @@ btnEnunciado11.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var nombre = prompt("Ingrese el nombre del jugador:");
     var cedula = prompt("Ingrese la cédula del jugador:");
     var edad = parseInt(prompt("Ingrese la edad del jugador:"));

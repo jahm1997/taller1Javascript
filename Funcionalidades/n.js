@@ -26,6 +26,7 @@ btnEnunciado14.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var sueldo = parseFloat(
       prompt("Ingrese el sueldo del empleado, sin comas o puntos:")
     );

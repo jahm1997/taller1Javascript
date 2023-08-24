@@ -19,6 +19,7 @@ btnEnunciado10.addEventListener("click", () => {
 
   const btnVerEjercicio = document.getElementById("ejecutar");
   btnVerEjercicio.addEventListener("click", () => {
+    //----------AQUI INICIA EL EJECICIÓ---------------------
     var notasEstudiante1 = [
       parseFloat(prompt("Ingrese la nota del estudiante 1, primer parcial:")),
       parseFloat(prompt("Ingrese la nota del estudiante 1, segundo parcial:")),
@@ -62,9 +63,8 @@ btnEnunciado10.addEventListener("click", () => {
       mejorEstudiante = "Estudiante 3";
     }
 
-    // Encontramos el estudiante con peor rendimiento
     let peorEstudiante = "";
-    let peorNota = 101; // Suponemos una nota máxima de 100
+    let peorNota = 500;
 
     if (notaDefinitivaEstudiante1 < peorNota) {
       peorNota = notaDefinitivaEstudiante1;
